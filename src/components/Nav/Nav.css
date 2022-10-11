@@ -2,6 +2,13 @@
     background: #004dad;
 }
 
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+
 .nav-design {
     display: flex;
     justify-content: end;
