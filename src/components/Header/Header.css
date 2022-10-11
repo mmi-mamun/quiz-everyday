@@ -6,15 +6,16 @@
 .container {
     max-width: 1220px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 10px 30px;
 }
 
 .display-flex {
     display: grid;
     grid-template-columns: 20% 80%;
     background: #fffa62;
-    padding: 20px 15px;
+    padding: 10px 15px;
     align-items: center;
+    border-radius: 15px;
 }
 
 .img {

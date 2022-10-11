@@ -1,9 +1,10 @@
 import React from 'react';
+import Card from '../Card/Card';
 
 const Topics = () => {
     return (
         <div>
-            <h1>This is from Topic</h1>
+            <Card></Card>
         </div>
     );
 };
