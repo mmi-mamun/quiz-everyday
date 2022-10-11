@@ -1,0 +1,17 @@
+.blog-text {
+    background-color: bisque;
+    padding: 15px;
+    border: 1px solid olive;
+    border-radius: 10px;
+    margin: 10px 10%;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+.txt {
+    padding: 5px 10%;
+    text-align: justify;
+}

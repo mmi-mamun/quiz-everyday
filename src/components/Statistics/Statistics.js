@@ -10,6 +10,8 @@ const Statistics = () => {
             .then(data => setGetCards(data.data))
         // .then(data => console.log(data))
     }, [])
+
+
     let myData = [];
     const COLORS = ["#3498DB", "#F1C40F", "#8E44AD", "#28B463"];
     let i = 0;
@@ -19,7 +21,9 @@ const Statistics = () => {
         const obj = { name: name, total: total, bg: COLORS[i++] };
         myData.push(obj);
     })
-    console.log(myData)
+
+
+
     return (
         <>
             <div style={{ width: '100%', height: 300 }}>
