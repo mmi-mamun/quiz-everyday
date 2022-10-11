@@ -3,9 +3,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from './layouts/Main';
 import Home from './components/Home/Home';
 import Topics from './components/Topics/Topics';
-import Statistics from './components/Statistics/Statistics';
 import Blog from './components/Blog/Blog';
 import Exam from './components/Exam/Exam';
+import Statistics from './components/Statistics/Statistics';
 
 
 function App() {
