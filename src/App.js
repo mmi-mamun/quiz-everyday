@@ -6,6 +6,7 @@ import Topics from './components/Topics/Topics';
 import Blog from './components/Blog/Blog';
 import Exam from './components/Exam/Exam';
 import Statistics from './components/Statistics/Statistics';
+import FourOFour from './components/FourOFour/FourOFour';
 
 
 function App() {
@@ -37,7 +38,7 @@ function App() {
         },
         {
           path: '*',
-          element: <Home></Home>
+          element: <FourOFour></FourOFour>
         }
       ]
     }
