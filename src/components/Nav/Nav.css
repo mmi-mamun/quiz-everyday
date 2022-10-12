@@ -24,3 +24,33 @@
     letter-spacing: 1px;
     font-weight: 600;
 }
+
+
+
+@media (max-width: 768px) {
+
+    /* Medium Devices */
+    .nav,
+    .nav-design {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;
+        justify-content: space-between; */
+        /* margin: 0 5%; */
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    /* Small Device */
+    .nav,
+    .nav-design {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;
+        justify-content: space-between; */
+        /* margin: 0 5%; */
+    }
+}

@@ -9,6 +9,14 @@ body {
     gap: 35px;
 }
 
+.top {
+    position: sticky;
+    top: 0;
+    background-color: bisque;
+    padding: 10px 5%;
+    z-index: 999;
+}
+
 
 .question {
     display: flex;
@@ -78,4 +86,32 @@ body {
 
 .options p:hover {
     background: #ddd;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    /* Medium Devices */
+    .question-set {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: start;
+        gap: 25px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    /* Small Device */
+    .question-set {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: start;
+        gap: 35px;
+    }
+
 }

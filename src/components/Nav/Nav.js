@@ -16,7 +16,7 @@ const Nav = () => {
                     <Link to='/blog'>My Blog</Link>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

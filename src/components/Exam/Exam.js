@@ -59,16 +59,17 @@ const Exam = (props) => {
     return (
         <div>
             <div className="wrapper">
+                <div className="top">
+                    <h1>{getQuestion.name}</h1>
+                    <h3>Total Mark: <b>{getQuestion.total}</b></h3>
+                    <h4>
+                        Total correct : <span id='total-correct'> {correct} </span>
+                        <span> ~ : : : ~ </span>
+                        Total wrong : <span id='total-wrong'> {wrong} </span>
+                    </h4>
+                </div>
                 <div className="container">
-                    <div className="top">
-                        <h1>{getQuestion.name}</h1>
-                        <h3>Total Mark: <b>{getQuestion.total}</b></h3>
-                        <h4>
-                            Total correct : <span id='total-correct'> {correct} </span>
-                            <span> ~ : : : ~ </span>
-                            Total wrong : <span id='total-wrong'> {wrong} </span>
-                        </h4>
-                    </div>
+
                     <div className="question-set">
                         {
 

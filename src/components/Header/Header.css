@@ -22,3 +22,26 @@
     width: 100%;
     height: 100%;
 }
+
+
+@media (max-width: 768px) {
+
+    /* Medium Devices */
+    .display-flex {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    /* Small Device */
+    .display-flex {
+        display: flex;
+        flex-direction: column;
+
+    }
+}

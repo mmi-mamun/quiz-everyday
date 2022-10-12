@@ -22,12 +22,13 @@
     display: flex;
     justify-content: space-between;
     padding: 8px 12px;
+    flex-direction: column;
 }
 
 .card .btn {
     display: flex;
     justify-content: center;
-    padding: 10px 8px;
+    padding: 10px 0px;
     border: none;
     background: #303030;
     font-weight: 600;
@@ -39,5 +40,31 @@
 
     position: absolute;
     bottom: 0;
-    width: 94%;
+    width: 100%;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    /* Medium Devices */
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    /* Small Device */
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
 }
